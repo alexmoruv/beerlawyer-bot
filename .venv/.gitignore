@@ -1,0 +1,11 @@
+# Окружение
+.env
+venv/
+__pycache__/
+
+# PyCharm
+.idea/
+
+# Системное
+.DS_Store
+*.log

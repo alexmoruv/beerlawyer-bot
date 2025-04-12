@@ -1,0 +1,35 @@
+# Основные зависимости
+python-telegram-bot>=20.0,<21.0
+APScheduler==3.11.0
+httpx==0.26.0
+python-dotenv>=0.19.0
+
+# Поддержка AI-интеграций, JWT и API
+PyJWT==2.8.0
+yandexcloud
+grpcio>=1.60.0,<1.71.0
+grpcio-tools
+googleapis-common-protos==1.69.2
+protobuf==4.25.3
+
+# Системные библиотеки
+cryptography==42.0.1
+cffi==1.17.1
+pycparser==2.22
+six==1.17.0
+wrapt
+Deprecated==1.2.18
+typing_extensions==4.13.1
+
+# HTTP и async-стек
+anyio==4.6.2
+sniffio==1.3.1
+h11==0.14.0
+httpcore==1.0.7
+charset-normalizer==3.4.1
+idna==3.10
+urllib3
+requests==2.32.3
+certifi==2025.1.31
+tzlocal
+exceptiongroup==1.2.2
